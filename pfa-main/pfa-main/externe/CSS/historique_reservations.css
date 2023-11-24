@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+header{
+  width: 100%;
+  height: 54px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  
+}
+.logo {
+position: relative;
+  height: 54px;
+  width: 54px;
+  left: 54px;
+}
+header > img {
+  top: 10px;
+  height: 504px;
+  width: 54px;
+
+}
+.composant{
+
+  width: 100%;
+}
+header > .composant > a {
+
+  margin: 0 25px;
+  position:relative;
+  left: 85%;
+  top: 15px;
+ 
+}
+header > .composant > input {
+  position: absolute;
+  display: flex;
+  width: 520px;
+  height: 30px;
+  left: 30%;
+  top: 25px;
+
+  background: #D6D6D6;
+  box-shadow: 0px 1px 40px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  border-color: transparent;
+
+}
+header button {
+  background-color: transparent;
+  border-style: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.filter{
+  position: relative;
+  left: 62%;
+  top: 15px;
+  width: 20px;
+  height: 20px;
+
+}
+
+hr{
+  position: absolute;
+  width: 100%;
+  top: 80px;
+}
+.burger{
+  
+  color: #2F4858;
+  font-size: 25px;
+}
+
+@media (max-width: 1474px){
+  
+  .filter{
+ 
+  display: none;
+
+}
+  @media (max-width: 996px ){
+  
+      .connexion{
+
+      display: none;
+     
+  }
+     
+
+}
+@media(max-width: 896px) {
+
+          header > .composant > input {
+             width: 50%;       
+
+      }
+}
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.texte{
+  position: relative;
+  text-align: center;
+  top: 25%;
+
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.hr1{
+  position: absolute;
+  width: 100%;
+  top: 0rem;
+  border: 0.5px solid #E3D7B6;
+}
+.container {
+  display: flex;
+  height: 80vh;
+}
+
+.left-container {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #000000; margin-top:2%; margin-bottom:2%; /* Bordure noire à droite */
+}
+
+.right-container {
+  flex: 4;
+  background-color: #ffffff;
+  margin-top: 15px; /* Ajoute une marge supérieure de 10 pixels */
+}
+#histo{
+  border: 1px solid navajowhite;
+  border-radius: 5px;
+  padding: 5px;
+  background: navajowhite;
+
+}
+#passe{
+  cursor: pointer;
+}
+#present{
+  cursor: pointer;
+}
+#futur{
+  cursor: pointer;
+}
+#contenu_passe{
+  position: absolute;
+  width: 293px;
+  height: 100%;
+  left: 380px;
+  top: 170px;
+}
+#contenu_present{
+  position: absolute;
+  width: 293px;
+  height: 347px;
+  left: 726px;
+  top: 170px;
+}
+#contenu_futur{
+  position: absolute;
+  width: 293px;
+  height: 347px;
+  left: 1072px;
+  top: 167px;
+}
+.categories_reservation {
+    display: flex;
+    padding: 0% 5%;
+    justify-content:space-between;
+    align-items: center;
+}
+.contenu_reservations img {
+  border-radius: 10px;
+}
+
+.logement img{
+  width: 18.4rem;
+  height: 17.813rem;
+  border: 1px solid #E3D7B6;
+  border-radius: 15px;
+}
+.form input[type="image"]{
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 22px;
+  height: 22px;
+}
+

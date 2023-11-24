@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.cdnfonts.com/css/helvetica-neue-9);
+  }
+
+
+@font-face {
+  font-family: 'Cammron';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cammron'), url('https://fonts.cdnfonts.com/s/19380/CammronDemo.woff') format('woff');
+}
+
+.partie_gauche{
+    box-sizing: border-box;
+    position: relative;
+    width: 34rem;
+    height: 37rem;
+    left: 2rem;
+    top: 7rem;
+    border: 1px solid #000000;
+    border-radius: 2rem;
+    padding: 13px;
+}
+
+.rectangle1{
+  position: absolute;
+  width: 34rem;
+  height: 5rem;
+  border: 1px solid #000000;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  background-color: #2F4858;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -0.1rem;
+  bottom: 32rem;
+
+}
+
+.photo {
+  box-sizing: border-box;
+  position: absolute;
+  width: 40rem;
+  height: 22rem;
+  left: 50rem;
+  top: 7rem;
+  border-radius: 2rem;
+}
+
+.photo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.equipements{
+  top: 31rem;
+  left:50rem;
+  position:absolute;
+  font-family: 'Helvetica Neue';
+}
+
+#confirmer{
+  box-sizing: border-box;
+  position: absolute;
+  width: 14rem;
+  height: 3rem;
+  left: 64rem;
+  top: 40rem;
+  background-color: #2F4858;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #E3D7B6;
+  font-family: 'Cammron', sans-serif;
+ }
+
+ h1{
+  font-family: 'Cammron', sans-serif;
+  color: #E3D7B6;
+  text-align: center;
+
+ }
+
+ h2{
+  font-family:'Cammron', sans-serif;
+ }
+
+ .hr1 {
+  position: absolute;
+  width: 19rem;
+  top: 14.5rem;
+  border: 1px solid #000000;
+  margin-left: 6rem;
+}
+
+.hr2 {
+  position: absolute;
+  width: 18rem;
+  top: 24rem;
+  border: 1px solid #000000;
+  margin-left: 100px;
+}
+
+#pay{
+  font-family: 'Helvetica Neue';
+  height: 7rem;
+  position: relative;
+  left: 7rem;
+  bottom: -3rem; 
+}
+.rec1{
+  position: absolute;
+  width: 25rem;
+  height: 2rem;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  top: 28rem;
+  left:3rem;
+  font-family: 'Cammron', sans-serif;
+}
+.rec3{
+  position: absolute;
+  width: 25rem;
+  height: 2rem;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  top: 31rem;
+  left:3rem;
+  font-family: 'Cammron', sans-serif;
+}
+
+
+.rec2{
+  position: absolute;
+  width: 25rem;
+  height: 2rem;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  top: 34rem;
+  left:3rem;
+  font-family: 'Cammron', sans-serif;
+}
+
+.infos_voyage{
+  font-family: 'Helvetica Neue';
+}
+.infos_voyageur{
+  font-family: 'Helvetica Neue';
+}

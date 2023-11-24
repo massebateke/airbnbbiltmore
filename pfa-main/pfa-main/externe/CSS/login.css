@@ -1,0 +1,344 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS_exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+    font-family: 'Cammron', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS4exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+*{
+    margin: 0;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background: white;
+}
+
+.texte{
+    position: relative;
+    text-align: center;
+    top: 25%;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.hr1{
+    position: absolute;
+    width: 100%;
+    top: 0rem;
+    border: 0.5px solid #E3D7B6;
+}
+
+.container{
+    position: absolute;
+    width: 51.938rem;
+    height: 40.93rem;
+    left: 19.063rem;
+    top: 6.875rem;
+
+    border: 2px solid #2F4858;
+    border-radius: 10px;
+}
+
+.container-bleu{
+    position: absolute;
+    width: 51.938rem;
+    height: 5.25rem;
+    left: 0px;
+    top: 0px;
+
+    background: #2F4858;
+}
+
+.logo img {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 1.5rem;
+    top: 1rem;
+}
+
+.titre-connexion{
+    position: relative;
+    width: 7.375rem;
+    height: 20px;
+    left: calc(50% - 118px/2 - 0.5px);
+    top: calc(50% - 20px/2);
+    
+    font-family: 'Cammron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #E3D7B6;
+    
+}
+
+.form{
+    position: absolute;
+    justify-content: center;
+    width: 16.875rem;
+    height: 15rem;
+    left: 281px;
+    top: 120px;
+}
+
+.ad-mail {
+    position: relative;
+    width: 7rem;
+    height: 21px;
+    left: 0px;
+    top: 1px; 
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    
+    color: #000000;
+}
+
+.mail{
+    position: relative;
+    box-sizing: border-box;
+    width: 16.125rem;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    margin-top: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+.mdp{
+    position: relative;
+    width: 8.125rem;
+    height: 21px;
+    left: 0px;
+    
+    margin-top: 15px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    
+    color: #000000;
+}
+
+.password{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 16.125rem;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    margin-top: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+} 
+
+
+.mdp_oublie{
+    position: relative;
+    width: 9.375rem;
+    height: 18px;
+    left: 0px;
+    top: 0;
+    margin-top: 5px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.button{
+    position: relative;
+    width: 10rem;
+    height: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+
+    background: #2F4858;
+    border-radius: 10px;
+
+    font-family: 'Cammron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #E3D7B6;
+}
+
+.trait{
+    position: relative;
+    width: 27.5rem;
+    height: 35px;
+    top: 24rem;
+
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hr{
+    position: absolute;
+    width: 27.5rem;
+    border: 1px solid #000000;
+}
+
+.inscription{
+    position: relative;
+    width: 13.625rem;
+    height: 18px;
+    margin-top: 5px;
+
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.compte{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 27.135rem;
+    height: 10.688rem;
+    left: 12.375rem;
+    top: 27.625rem;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+}
+
+.google {
+    height: 38px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+}
+
+.google img{
+    width: 20px;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+}
+
+.google-compte{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.apple{
+    height: 38px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+}
+
+.apple img{
+    width: 20px;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+}
+
+.apple-compte{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.facebook{
+    height: 38px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+}
+
+.facebook img{
+    width: 20px;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+}
+
+.facebook-compte{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+}

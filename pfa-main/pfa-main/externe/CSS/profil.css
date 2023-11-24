@@ -1,0 +1,108 @@
+
+
+
+.email {
+
+    position: absolute;
+    
+    left: 15%;
+    top: 180px;
+
+    
+}
+
+.Nom-utilisateur{
+
+    position: absolute;
+  
+    left: 15%;
+    top: 280px;
+
+}
+
+.mdp{
+
+    position: absolute;
+   
+    left: 15%;
+    top: 380px;
+
+}
+
+.Confirmer-mdp{
+
+    position: absolute;
+   
+    left: 15%;
+    top: 480px;
+
+}
+
+
+.Nom {
+
+    position: absolute;
+    
+    left: 55%;
+    top: 180px;
+
+}
+
+.Prenom {
+
+    position: absolute;
+    left: 55%;
+    top: 280px;
+}
+
+.numero{
+
+    position: absolute;
+    left: 55%;
+    top: 380px;
+
+}
+
+.Adresse{
+
+    position: absolute;
+    left: 55%;
+    top: 480px;
+
+
+}
+
+.profil > .submit {
+
+    position: absolute;
+    left: 37%;
+    top: 600px; 
+    background: #2F4858;
+    border-radius: 5px;
+    width: 319px;
+    height: 43px;
+    font-size: 22px;
+    color: #E3D7B6;
+    
+}
+
+h1 {
+
+    position:absolute;
+    left: 45%;
+    top: 128px;
+    
+}
+
+.box-input{
+    width: 370px;
+    height: 30px;
+    /* blanc */
+
+    background: #FFFFFF;
+    /* Maxi drop shadow */
+
+    box-shadow: inset 0px 8px 30px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+

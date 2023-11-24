@@ -1,0 +1,91 @@
+.titre {
+
+    position: absolute;
+    left: 8%;
+    top: 6.5rem;
+    box-sizing: border-box;
+    width: 250px;
+    height: 50px;
+    
+
+}
+
+h1 {
+
+    position: relative;
+    left: 15%;
+    top: 5px;
+    font-size: 24px;
+
+}
+
+.affichage_logements{
+
+    position: relative;
+    display: flex;
+    margin: auto;   
+    flex-wrap:wrap ; 
+    width: 82.5rem;
+    top: 9rem;
+}
+ 
+.temoignage {
+    box-sizing: border-box;
+
+    position: relative;
+    width: 250px;
+    height: 168px;
+    left: 0;
+    top: 0;
+    
+    border: 5px solid #E3D7B6;
+    box-shadow: inset 0px 8px 30px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+    
+}
+
+.temoignage > .infos > p {
+
+    position: relative;
+    top: 25%;
+    left:35%;
+    margin-top: 5px;
+
+
+}
+
+.retour{
+
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+
+    
+}
+
+
+
+
+@media (max-width: 1240px) {
+
+    .temoignage{
+        margin-left: 20rem;
+
+    }
+
+    @media  (max-width: 1150px){
+        .temoignage{
+            margin-left: 15rem;
+    
+        }
+        
+        
+    }
+
+
+
+
+}

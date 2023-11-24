@@ -1,0 +1,162 @@
+@font-face {
+        font-family: 'Cammron';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Cammron'), url('https://fonts.cdnfonts.com/s/19380/CammronDemo.woff') format('woff');
+    }
+    
+    
+
+
+@font-face {
+    font-family: Helvetica Bold;
+    font-style: bold;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS_exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  
+/* @font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS_exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9'); */
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.cdnfonts.com/css/helvetica-neue-9);
+}
+
+.nom{
+    font-family: 'Cammron';
+    font-size: 20px;
+    margin-left: 1.2%;
+}
+
+.description{
+    font-family: Helvetica Bold;
+    font-size: 20px;
+    margin-left: 1.2%;
+}
+
+.about_description{
+    font-family: 'Helvetica Neue';
+    font-size: 18px;
+    margin-left: 1.2%;
+
+}
+
+.infos_logement{
+    font-family: 'Helvetica Neue';
+    font-size: 18px;
+    margin-left: 1.2%;
+}
+
+.submit{
+    color: #E3D7B6;
+    background-color: #2F4858;
+    font-family: 'Helvetica Neue';
+    font-size: 27px;
+    border-radius: 5px;
+    width: 40%;
+    height: 10%;
+    right: 30%;
+    position: absolute;
+}
+
+.prixsejour{
+    font-family: Helvetica Bold;
+    font-size: 30px;
+}
+
+
+.affichage_photos{
+    --gap: 16px;
+    --num-cols: 4;
+    --row-height: 200px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+
+.affichage_photos > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;  
+}
+
+
+.affichage_photos-col-2{
+    grid-column: span 2;
+}
+
+.affichage_photos-row-2{
+    grid-row: span 2;
+} 
+
+
+@media (max-width: 1024px){
+    .affichage_photos{
+        --num-cols: 2;
+        --row-height: 200px;
+    }
+} 
+ 
+
+@media (max-width: 1257.60px){
+    
+.reservation{
+
+    display: none; 
+}}
+
+@media (max-width: 916px){
+
+ .a_propos{
+
+    display: none;
+}}
+
+
+.reservation2{
+    padding: 1.4%;
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 26%;
+    height: 56%;
+    right: 1%;
+    top: 90%;
+    position: absolute;
+}
+
+.number{
+    width: 97.9%;
+    border-radius:3px;
+}
+
+.date{
+    border-radius: 3px;
+    height: 30%;
+    width: 48.43%;
+}
+
+.equipement{ 
+    margin-left: 1.2%;  
+    font-family: 'Helvetica Neue';
+    font-size: 18px;
+}

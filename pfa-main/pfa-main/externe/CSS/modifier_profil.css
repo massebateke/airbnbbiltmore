@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS_exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+    font-family: 'Cammron', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS4exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+
+
+.email {
+
+    position: absolute;
+    
+    left: 15%;
+    top: 280px;
+
+    
+}
+
+.Nom-utilisateur{
+
+    position: absolute;
+  
+    left: 15%;
+    top: 380px;
+
+}
+
+.mdp{
+
+    position: absolute;
+   
+    left: 15%;
+    top: 480px;
+
+}
+
+.Confirmer-mdp{
+
+    position: absolute;
+   
+    left: 15%;
+    top: 580px;
+
+}
+
+
+.Nom {
+
+    position: absolute;
+    
+    left: 55%;
+    top: 280px;
+
+}
+
+.Prenom {
+
+    position: absolute;
+    left: 55%;
+    top: 380px;
+}
+
+.numero{
+
+    position: absolute;
+    left: 55%;
+    top: 480px;
+
+}
+
+.Adresse{
+
+    position: absolute;
+    left: 55%;
+    top: 580px;
+
+
+}
+
+.profil > .submit {
+
+    position: absolute;
+    left: 37%;
+    top: 700px; 
+    background: #2F4858;
+    border-radius: 5px;
+    width: 319px;
+    height: 43px;
+    font-size: 22px;
+    color: #E3D7B6;
+    
+}
+
+h1 {
+
+    position:absolute;
+    left: 45%;
+    top: 128px;
+    
+}
+
+.box-input{
+    width: 370px;
+    height: 30px;
+    /* blanc */
+
+    background: #FFFFFF;
+    /* Maxi drop shadow */
+
+    box-shadow: inset 0px 8px 30px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+
+/* Définit le style pour l'élément upload */
+.upload{
+    width: 125px;
+    right: 37px;
+    top: 30px;
+    position: relative;
+    margin: auto;
+}
+/* 
+/* Définit le style pour les images dans l'élément upload */
+ .upload img{
+    border-radius: 50%;
+    border: 4px solid #E3D7B6;
+} 
+
+/* Définit le style pour l'élément round */
+ .upload .round{
+    position: absolute;
+    background: #2F4858;
+    bottom: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+} 
+
+/* Définit le style pour l'élément input de type "file" dans l'élément round */
+ .upload .round input[type = "file"]{
+    position: absolute;
+    transform: scale(3);
+    opacity: 0;
+}
+ 
+/* Définit le style pour le bouton d'upload dans les navigateurs WebKit */
+ input[type = "file"]::-webkit-file-upload-button{
+    cursor: pointer;
+}  
+

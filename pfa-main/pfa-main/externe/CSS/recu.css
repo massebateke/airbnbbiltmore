@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Cammron';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cammron'), url('https://fonts.cdnfonts.com/s/19380/CammronDemo.woff') format('woff');
+}
+
+
+
+
+@font-face {
+font-family: Helvetica Bold;
+font-style: bold;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS_exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url(https://fonts.cdnfonts.com/css/helvetica-neue-9);
+}
+
+.remerciement > img{
+    
+    height: 27.5rem;
+    width: 42.42rem;
+    /* height: 80%; */
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+
+    /* filter: sepia(30%) hue-rotate(180deg) saturate(60%) */
+}
+
+.partie_gauche{
+    margin-left:0.800rem;
+}
+
+.remerciementtxt{
+    color: white;
+    font-size: 1.813rem;
+    font-family: 'Cammron';
+    top: 19.20rem;
+    position: absolute;
+    z-index: 3;
+}
+
+#carre {
+    height: 27.5rem;
+    width: 42.42rem;
+    background: #2F4858;
+    --webkit-transform: rotate(45deg);
+    opacity: 0.7;
+    z-index: 2;
+    top: 6.875rem;
+    position: absolute;
+}
+
+.dates{
+    display: flex;
+    align-items: center;
+    
+}
+.arrivee{
+    padding: 0.125rem;
+    font-family: 'Helvetica Neue';
+    font-size: 1.25rem;  
+    background-color:#E3D7B6 ; 
+    width: 20.313rem;
+    height: 4.375rem;
+  
+}
+
+.depart{
+    padding: 0.125rem;
+    font-family: 'Helvetica Neue';
+    font-size: 1.25rem; 
+    background-color:#E3D7B6 ;
+    width: 20.313rem;
+    height: 4.375rem;
+    position: absolute;
+    bottom: 2.5rem;
+    left: 22.813rem;
+} 
+
+.message_adresse{
+    display: flex;
+    align-items: center;
+    
+}
+
+.message{
+    padding: 0.125rem;
+    font-family: 'Helvetica Neue';
+    font-size: 1.25rem;  
+    background-color:#E3D7B6 ; 
+    width: 20.313rem;
+    height: 4.375rem;
+}
+
+.adresse{
+    padding: 0.125rem;
+    font-family: 'Helvetica Neue';
+    font-size: 1.25rem; 
+    background-color:#E3D7B6 ;
+    width: 20.313rem;
+    height: 4.375rem;
+    position: absolute;
+    top: 43.9rem;
+    left: 22.813rem;
+}
+
+/* .dates{
+    background-color:#E3D7B6 ;
+    border-radius: 4%;
+   
+} */
+
+.nombre_place{
+    padding: 0.125rem;
+    font-family: Helvetica Bold;
+    font-size: 0.938rem;  
+    left: 1.375rem;
+    position: absolute;
+  
+}
+
+.infos_adresse{
+    display: flex;
+    align-items: center;
+}
+
+.liens_infos{
+    padding: 0.125rem;
+    font-family: Helvetica Bold;
+    font-size: 0.938rem; 
+    position: relative;
+    bottom: 0.313rem;
+    margin-left: 22.813rem;
+}
+
+/* @media (max-width: 57.25rem){
+
+    .a_propos{
+   
+       display: none;
+   }}
+
+*/
+
+.itineraire {
+    bottom:40rem;
+    left: 50rem;
+    position: relative;
+
+}
+
+.liens_infos{
+    top: 1rem;
+}
+
+.infos_reservations{
+    top: 1rem;
+    position: relative;
+}

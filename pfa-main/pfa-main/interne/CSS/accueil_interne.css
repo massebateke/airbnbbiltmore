@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  
+  header{
+    width: 100%;
+    height: 54px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    
+  }
+  .logo {
+  position: relative;
+    height: 54px;
+    width: 54px;
+    left: 54px;
+  }
+  header > img {
+    top: 10px;
+    height: 504px;
+    width: 54px;
+  
+  }
+  .composant{
+  
+    width: 100%;
+  }
+  header > .composant > a {
+  
+    margin: 0 25px;
+    position:relative;
+    left: 85%;
+    top: 15px;
+   
+  }
+  header > .composant > input {
+    position: absolute;
+    display: flex;
+    width: 520px;
+    height: 30px;
+    left: 30%;
+    top: 25px;
+  
+    background: #D6D6D6;
+    box-shadow: 0px 1px 40px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    border-color: transparent;
+  
+  }
+  header button {
+    background-color: transparent;
+    border-style: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .filter{
+    position: relative;
+    left: 62%;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+  
+  }
+  
+  hr{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+  }
+  .burger{
+    
+    color: #2F4858;
+    font-size: 25px;
+  }
+  
+  @media (max-width: 1474px){
+    
+    .filter{
+   
+    display: none;
+  
+  }
+    @media (max-width: 996px ){
+    
+        .connexion{
+  
+        display: none;
+       
+    }
+       
+  
+  }
+  @media(max-width: 896px) {
+  
+            header > .composant > input {
+               width: 50%;       
+  
+        }
+  }
+  }
+  .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  .texte{
+    position: relative;
+    text-align: center;
+    top: 25%;
+  
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  
+  .hr1{
+    position: absolute;
+    width: 100%;
+    top: 0rem;
+    border: 0.5px solid #E3D7B6;
+  }
+  .status{
+    position: relative;
+    left: 65%;
+    top: 15px;
+    white-space: nowrap;
+  }
+  .gestion{
+    position: relative;
+    width: 260px;
+    height: 24px;
+    left: 70px;
+    top: 70px;
+    white-space: nowrap;
+  }
+
+  .rectangles{
+    position: absolute;
+    width: 100%;
+    height: 25rem;
+    top: 20rem;
+    display: flex;
+    justify-content: center;
+    place-content: space-between space-evenly;
+  }
+
+  .rectangle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    height: 65px;
+    background-color: #ffffff;
+    border: 1.5px solid #E3D7B6;
+    padding: 10px;
+    border-radius: 15px;
+    
+    
+  }
+  
+  .rectangle p {
+    margin: 0;
+  }
+  .image-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20%;
+  background-color:#E3D7B6;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#texte-container{
+    margin-left: 10px;
+}
+ 
+
+  .rectangle p {
+    margin: 0;
+  }
+  .image-container2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20%;
+  background-color:#E3D7B6;
+}
+
+.image-container2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#texte-container2{
+    margin-left: 10px;
+}  
+
+
+.image-container3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20%;
+  background-color:#E3D7B6;
+}
+
+.image-container3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#texte-container3{
+    margin-left: 10px;
+}
+
+.rectangles2{
+    position: absolute;
+    width: 100%;
+    height: 25rem;
+    top: 20rem;
+    display: flex;
+    justify-content: center;
+    place-content: space-between space-evenly;
+  }
+.rectangle2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    height: 65px;
+    background-color: #ffffff;
+    border: 1.5px solid #E3D7B6;
+    padding: 10px;
+    border-radius: 15px;
+    top: 125px;
+    right: 0%;
+    
+  }
+  
+  .rectangle2 p {
+    margin: 0;
+  }
+  .image-container4 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20%;
+  background-color:#E3D7B6;
+}
+.image-container4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#texte-container4{
+    margin-left: 10px;
+}
+
+.image-container5 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20%;
+    background-color:#E3D7B6;
+  }
+  .image-container5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #texte-container5{
+      margin-left: 10px;
+  }
+
+  .image-container6 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20%;
+    background-color:#E3D7B6;
+  }
+  .image-container6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #texte-container6{
+      margin-left: 10px;
+  }
+  .rectangles3{
+    position: absolute;
+    width: 100%;
+    height: 25rem;
+    top: 20rem;
+    display: flex;
+    justify-content: center;
+    place-content: space-between space-evenly;
+  }
+  .rectangle3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    height: 65px;
+    background-color: #ffffff;
+    border: 1.5px solid #E3D7B6;
+    padding: 10px;
+    border-radius: 15px;
+    top: 250px;
+    right: 0%;
+    
+    
+  }
+  
+  .rectangle3 p {
+    margin: 0;
+  }
+
+  .image-container7 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20%;
+    background-color:#E3D7B6;
+  }
+  .image-container7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #texte-container7{
+      margin-left: 10px;
+  }
+
+  .image-container8 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20%;
+    background-color:#E3D7B6;
+  }
+  .image-container8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #texte-container8{
+      margin-left: 10px;
+  }
+  
+ 
+
+
+

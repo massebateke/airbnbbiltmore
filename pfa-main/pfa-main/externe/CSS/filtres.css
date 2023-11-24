@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS_exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+    font-family: 'Cammron', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS4exC-fGAj&skey=4ad46dd97873f7d7&v=v16) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+*{
+ font-family: 'Helvetica Neue';
+ font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+
+}
+
+.description {
+
+    position: relative;
+    width: 600px;
+    left: 25rem;
+    top: 3rem;
+    margin-left: 50px;
+
+}
+
+.formulaire_filtre{
+    border: 1px solid #E3D7B6;
+    border-radius: 15px;
+    position: relative;
+    top: 100px;
+    width: 600px;
+    height: 950px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.box{
+    position: relative;
+    top: 2rem;
+    width: 500px;
+    height: 918px;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#dates{
+    background: #FFFFFF;
+    height:26px;
+    margin-bottom: 30px;
+
+    border: 1px solid #2F4858;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.prix_min{
+    width: 190px;
+}
+
+.prix_max{
+    width: 190px;
+}
+.prix{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.max-min {
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;      
+}
+
+.radio-box{
+    background: #FFFFFF;
+
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.piscine-spa{
+    position: relative;
+    margin-bottom: 15px;
+}
+.vue-fitness{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.plage-secu{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.experiences_gastronomiques {
+    position: relative;
+    margin-top: 30px;
+}
+
+.exp{
+    width: 500px;
+    height: 32px;
+}
+
+.switch {
+    display: inline-block;
+	position: relative;
+	width: 65px;
+	height: 30px;
+	cursor: pointer;
+	overflow: hidden;
+    left: 400px;
+    bottom: 2rem;
+}
+
+.txt{
+    position: relative;
+    margin-top: 0rem;
+}
+
+.evenement_exclusifs{
+    position: relative;
+    margin-top: 30px;
+}
+
+.eve{
+    width: 500px;
+    height: 32px;
+}
+
+.switch-2 {
+    display: inline-block;
+	position: relative;
+	width: 65px;
+	height: 30px;
+	cursor: pointer;
+	overflow: hidden;
+    left: 400px;
+    bottom: 2rem;
+}
+
+.button{
+    position: relative;
+    background: #2F4858;
+    border-radius: 5px;
+    width: 150px;
+    height: 43px;
+    top:5rem;
+    left: 10rem;
+    font-size: 22px;
+    color: #E3D7B6;
+}
+/* .switch input {
+    position: absolute;
+	top: -30px;
+	left: -30px;
+	width: 0;
+	height: 0;
+} */
+
+.switch input + .slider-round {
+    position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #99b4df;
+	border-radius: 20px;
+}
+
+.switch input:checked + .slider-round{
+    background: #346abf;
+}
+.switch input + .slider-round::before{
+
+    content: "";
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 4px;
+	width: 22px;
+	height: 22px;
+	background: white;
+	border-radius: 50%;
+	transform: translateY(-50%);
+	transition: all .5s;
+
+}
+
+.switch input:checked + .slider-round:before{
+
+    left: 34px;
+}
+
+.switch-2 input {
+    position: absolute;
+	top: -30px;
+	left: -30px;
+	width: 0;
+	height: 0;
+}
+
+.switch-2 input + .slider-round {
+    position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #99b4df;
+	border-radius: 20px;
+
+}
+
+.switch-2 input:checked + .slider-round{
+    background: #346abf;
+}
+.switch-2 input + .slider-round::before{
+
+    content: "";
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 4px;
+	width: 22px;
+	height: 22px;
+	background: white;
+	border-radius: 50%;
+	transform: translateY(-50%);
+	transition: all .5s;
+
+}
+
+.switch-2 input:checked + .slider-round:before{
+
+    left: 34px;
+}
